@@ -1,0 +1,43 @@
+.\venv\Scripts\Activate.ps1
+
+python -m venv venv
+source venv/bin/activate  # Unter Windows: venv\Scripts\activate
+pip install opencv-python
+
+
+python src/main.py
+
+cd face_recognition_vmix
+
+macos
+
+python3 -m venv venv
+source venv/bin/activate
+
+
+
+----------------
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install --upgrade pip
+pip install wheel setuptools
+
+pip install tensorflow-macos
+pip install tensorflow-metal
+
+brew install opencv
+pip install opencv-python-headless
+
+pip install deepface
+pip install numpy
+pip install requests
+
+pip install tf-keras
+
+pip uninstall tensorflow tensorflow-macos tensorflow-metal
+pip install tensorflow-macos==2.15.0
+pip install tensorflow-metal==1.1.0
+
+pip install pynput
