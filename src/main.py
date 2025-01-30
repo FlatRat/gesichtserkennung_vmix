@@ -1,4 +1,3 @@
-# main.py
 from pynput import keyboard
 import cv2
 from face_detector import FaceDetector
