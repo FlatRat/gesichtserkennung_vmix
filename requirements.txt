@@ -1,0 +1,6 @@
+tensorflow-macos
+tensorflow-metal
+opencv-python-headless
+deepface
+numpy
+requests
