@@ -114,10 +114,6 @@ python src/main.py
 - Unterstützt verschiedene Kamera-Backends (DirectShow, MSMF)
 - Optimiert für Performance durch Frame-Skipping
 
-## Lizenz
-
-[Ihre gewählte Lizenz]
-
 ## Autor
 
 Lucas Alias FlatRat
